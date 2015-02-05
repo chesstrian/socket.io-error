@@ -1,0 +1,17 @@
+{
+  "name": "socket.io-error",
+  "description": "Receive error event on client when the server raises new Error in a middleware",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "DEBUG=* coffee main.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chesstrian/socket.io-error"
+  },
+  "dependencies": {
+    "express": "4.x",
+    "socket.io": "1.x"
+  }
+}
